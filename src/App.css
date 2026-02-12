@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.primary {
+  color: #4f46e5;
+  background: #4f46e5;
+}
+.Primary-hover {
+  color: #4338ca;
+  background: #4338ca;
+}
+.background {
+  color: #f9fafb;
+  background: #f9fafb;
+}
+.card-bg {
+  color: #ffffff;
+  background: #ffffff;
+}
+.txt-prim {
+  color: #111827;
+}
+.txt-sec {
+  color: #6b7280;
+}
+
+.sucess {
+  color: #16a34a;
+  background: #16a34a;
+}
+.error {
+  color: #dc2626;
+  background: #dc2626;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
