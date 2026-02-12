@@ -17,7 +17,15 @@ function App() {
   const [subjects, setSubjects] = useState(() => {
     try {
       const saved = localStorage.getItem("subjects");
-      return saved ? JSON.parse(saved) : [];
+      if (saved) {
+        return JSON.parse(saved);
+      }
+      return [
+        { id: 1, name: "HTML" },
+        { id: 2, name: "CSS" },
+        { id: 3, name: "Javascript" },
+        { id: 4, name: "Nodejs" },
+      ];
     } catch (error) {
       console.error("Error parsing subjects", error);
       return [];
