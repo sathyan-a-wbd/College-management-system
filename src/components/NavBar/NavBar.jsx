@@ -23,7 +23,7 @@ const NavBar = () => {
         <nav className="hidden md:flex items-center gap-6">
           <NavLink
             style={{ textDecoration: "none" }}
-            to="/subject-management"
+            to="/"
             className={navLinkClass}
           >
             Subject
@@ -75,7 +75,7 @@ const NavBar = () => {
         <div className="md:hidden px-6 pb-4 flex flex-col gap-3 justify-left bg-[#4f46e5]">
           <NavLink
             style={{ textDecoration: "none" }}
-            to="/subject-management"
+            to="/"
             className={navLinkClass}
           >
             Subject

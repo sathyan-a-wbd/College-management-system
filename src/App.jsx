@@ -61,7 +61,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route
-          path="/subject-management"
+          path="/"
           element={<Subject subjects={subjects} setSubjects={setSubjects} />}
         />
         <Route

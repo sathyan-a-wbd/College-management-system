@@ -40,15 +40,15 @@ const DashBoard = ({ students, courses, batches, subjects }) => {
   return (
     <main className="       w-full ">
       <div className="flex flex-col ">
-        <div className="flex flex-col items-center justify-center">
-          <div className="logo-field flex flex-col items-center">
+        <div className="flex flex-col gap-3 items-center justify-center">
+          <div className="logo-field flex flex-col gap-3 items-center mb-5 mt-5">
             <img
               src={Logo}
               alt="students"
               style={{ borderRadius: "50%" }}
-              className="w-[100px] h-[100px] rounded-5xl shadow-xl"
+              className="w-[100px] h-[100px] rounded-5xl shadow-xl border-1  border-[#4f46e5]"
             />
-            <div className="name">Admin</div>
+            <div className="name font-bold">Admin</div>
           </div>
         </div>
         <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] px-6  gap-8 items center justify-center">
@@ -58,7 +58,7 @@ const DashBoard = ({ students, courses, batches, subjects }) => {
               to={counts.link}
               style={{ textDecoration: "none" }}
               className="backdrop-blur-md bg-white/20 border border-white/30 
-                rounded-2xl shadow-xl p-3 "
+                rounded-2xl shadow-xl px-5 py-2 "
             >
               <div className=" flex ites-center justify-center">
                 <img
