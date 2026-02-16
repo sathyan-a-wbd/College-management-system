@@ -75,9 +75,7 @@ const Student = ({ courses, batches, setStudents, students }) => {
             <input
               className="w-full border-2 rounded-sm border-[#4f46e5] outline-none  px-3 py-3"
               type="text"
-              placeholder="Enter student 
-    
-              name"
+              placeholder="Enter student name"
               value={studentName}
               onChange={(e) => {
                 setStudentName(e.target.value);
